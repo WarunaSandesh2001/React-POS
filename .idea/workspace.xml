@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cde3bd76-c43d-4440-9e08-155a8cfc3840" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/common/appBar/appBarIndex.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/common/appBar/appBarIndex.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE Course\React NodeJs\Pos\React-POS-master\React-POS-master\src\assets\img" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660300019878</updated>
       <workItem from="1660300029415" duration="662000" />
-      <workItem from="1662464010746" duration="1763000" />
+      <workItem from="1662464010746" duration="2730000" />
     </task>
     <servers />
   </component>
