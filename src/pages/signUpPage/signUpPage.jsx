@@ -73,6 +73,27 @@ class SignUpPage extends Component {
 
     }
 
+    loadAllUsers = async () => {
+
+        let res = await signUpService.fetchCustomers();
+
+        if (res.status === 200) {
+            this.setState({
+                allUsers : res.data.data,
+                alert: true,
+                message: res.data.message,
+                severity: 'success'
+            });
+            //this.clearFields();
+            //await this.loadData();
+        } else {
+            this.setState({
+                alert: true,
+                message: res.response.data.message,
+                severity: 'error'
+            });
+        }
+    };
 
     submitUser = async () => {
 
@@ -96,27 +117,6 @@ class SignUpPage extends Component {
         }
     };
 
-    loadAllUsers = async () => {
-
-        let res = await signUpService.fetchCustomers();
-
-        if (res.status === 200) {
-            this.setState({
-                allUsers : res.data.data,
-                alert: true,
-                message: res.data.message,
-                severity: 'success'
-            });
-            //this.clearFields();
-            //await this.loadData();
-        } else {
-            this.setState({
-                alert: true,
-                message: res.response.data.message,
-                severity: 'error'
-            });
-        }
-    };
 
     loadSingleUser = async () => {
         //let cusId = this.state.id
